@@ -1,0 +1,33 @@
+<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="12" height="13" fill="black"/>
+<g id="Radarro Single page" clip-path="url(#clip0_266_170)">
+<rect width="1366" height="7816" transform="translate(-358 -2091)" fill="white"/>
+<g id="Group 1675">
+<g id="Rectangle 870" filter="url(#filter0_d_266_170)">
+<path d="M-39.7988 -217.727H595.201V296.727L563.451 321.382H-39.7988V-217.727Z" fill="white"/>
+<path d="M-39.2988 -217.227H594.701V296.483L563.28 320.882H-39.2988V-217.227Z" stroke="#096761"/>
+</g>
+</g>
+<g id="Group 1677">
+<g id="Group 899">
+<path id="Vector 1" d="M11.0498 6.29736L0.0498047 0.297363L3.38502 6.29736H11.0498Z" fill="#096761"/>
+<path id="Vector 2" d="M11.0498 6.29736L0.0498047 12.2974L3.38502 6.29736H11.0498Z" fill="#096761"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_266_170" x="-42.7988" y="-221.727" width="643" height="547.109" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_266_170"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_266_170" result="shape"/>
+</filter>
+<clipPath id="clip0_266_170">
+<rect width="1366" height="7816" fill="white" transform="translate(-358 -2091)"/>
+</clipPath>
+</defs>
+</svg>

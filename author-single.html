@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Author Archive Templates</title>
+      <!-- css -->
+      <link rel="stylesheet" href="assets/css/layout.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="preload" href="assets/fonts/be-vietnam-pro-v11-latin-600.woff2" fetchpriority="highest" as="font"
+         crossorigin="">
+      <link rel="preload" href="assets/fonts/be-vietnam-pro-v11-latin-700.woff2" fetchpriority="highest" as="font"
+         crossorigin="">
+      <link rel="preload" href="assets/fonts/be-vietnam-pro-v11-latin-regular.woff2" fetchpriority="highest" as="font"
+         crossorigin="">
+      <style>
+         @font-face {
+         font-display: swap;
+         font-family: 'Be Vietnam Pro';
+         font-style: normal;
+         font-weight: 400;
+         src: url('assets/fonts/be-vietnam-pro-v11-latin-regular.woff2') format('woff2');
+         }
+         @font-face {
+         font-display: swap;
+         font-family: 'Be Vietnam Pro';
+         font-style: normal;
+         font-weight: 600;
+         src: url('assets/fonts/be-vietnam-pro-v11-latin-600.woff2') format('woff2');
+         }
+         @font-face {
+         font-display: swap;
+         font-family: 'Be Vietnam Pro';
+         font-style: normal;
+         font-weight: 700;
+         src: url('assets/fonts/be-vietnam-pro-v11-latin-700.woff2') format('woff2');
+         }
+      </style>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="top-bar d-flex align-items-center">
+               <div class="site-logo">
+                  <a href="index.html"><img src="assets/img/HealthPract.svg" alt="site-logo"></a>
+               </div>
+               <div class="main-grp">
+                  <div class="search-form">
+                     <form action="">
+                        <input type="search" name="" id="" required="" placeholder="Search Today ?">
+                        <button type="submit" class="btn">
+                           <svg fill="none" viewBox="0 0 14 14" width="14" height="14">
+                              <g clip-path="url(#a)">
+                                 <path fill="#fff"
+                                    d="M13.809 12.105 11.082 9.38a.656.656 0 0 0-.464-.191h-.446a5.66 5.66 0 0 0 1.203-3.5A5.687 5.687 0 0 0 5.687 0 5.687 5.687 0 0 0 0 5.688a5.687 5.687 0 0 0 5.688 5.687 5.66 5.66 0 0 0 3.5-1.203v.446c0 .175.068.341.19.464l2.727 2.727a.654.654 0 0 0 .927 0l.774-.774a.66.66 0 0 0 .003-.93zM5.688 9.187a3.498 3.498 0 0 1-3.5-3.5c0-1.933 1.564-3.5 3.5-3.5 1.933 0 3.5 1.565 3.5 3.5 0 1.934-1.565 3.5-3.5 3.5z" />
+                              </g>
+                              <defs>
+                                 <clipPath id="a">
+                                    <path fill="#fff" d="M0 0h14v14H0z" />
+                                 </clipPath>
+                              </defs>
+                           </svg>
+                        </button>
+                     </form>
+                  </div>
+                  <div class="mobile-toggle">
+                     <div class="toggle-slide-btn">
+                        <svg width="20" height="20" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+                           fill="#00000099">
+                           <path
+                              d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm64 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zm384 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" />
+                        </svg>
+                     </div>
+                     <div class="mob-search-btn">
+                        <span class="search-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M7.333 12.667A5.333 5.333 0 1 0 7.333 2a5.333 5.333 0 0 0 0 10.667ZM14 14l-2.9-2.9"
+                                 stroke="#565656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <nav>
+               <ul>
+                  <li><a href="#">Wellness</a></li>
+                  <li><a href="#">Healthy</a></li>
+                  <li class="dropdown">
+                     <a href="#">
+                        Mental Health
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 14 8" fill="none">
+                           <path d="M1 2L7 7L13 2" stroke="#ffffff" stroke-opacity="0.8" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                        </svg>
+                     </a>
+                     <ul>
+                        <li><a href="single.html">Top 10</a></li>
+                        <li><a href="single.html">HTML & CSS</a></li>
+                        <li><a href="single.html">JavaScript</a></li>
+                        <li><a href="single.html">PHP & MySQL</a></li>
+                        <li class="dropdown">
+                           <a href="#">
+                              Mental Health
+                              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 14 8"
+                                 fill="none">
+                                 <path d="M1 2L7 7L13 2" stroke="#ffffff" stroke-opacity="0.8" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                           <ul>
+                              <li><a href="single.html">Top 10</a></li>
+                              <li><a href="single.html">HTML & CSS</a></li>
+                              <li><a href="single.html">JavaScript</a></li>
+                              <li><a href="single.html">PHP & MySQL</a></li>
+                              <li class="dropdown">
+                                 <a href="#">
+                                    Mental Health
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 14 8"
+                                       fill="none">
+                                       <path d="M1 2L7 7L13 2" stroke="#ffffff" stroke-opacity="0.8" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </a>
+                                 <ul>
+                                    <li><a href="single.html">Top 10</a></li>
+                                    <li><a href="single.html">HTML & CSS</a></li>
+                                    <li><a href="single.html">JavaScript</a></li>
+                                    <li><a href="single.html">PHP & MySQL</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Fitness</a></li>
+                  <li class="dropdown">
+                     <a href="#">
+                        Mental Health
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 14 8" fill="none">
+                           <path d="M1 2L7 7L13 2" stroke="#ffffff" stroke-opacity="0.8" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                        </svg>
+                     </a>
+                     <ul>
+                        <li><a href="single.html">Top 10</a></li>
+                        <li><a href="single.html">HTML & CSS</a></li>
+                        <li><a href="single.html">JavaScript</a></li>
+                        <li><a href="single.html">PHP & MySQL</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Matters</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+
+      <div class="all-page">
+         <div class="blog-banner d-flex align-items-center container-space">
+            <div class="container">
+               <p id="breadcrumbs">
+                  <span>
+                  <span>Archives for Manpreet Kaur Sandhu</span>
+                  </span>
+               </p>
+               <div class="author-name h1 text-white">
+                  Manpreet Kaur Sandhu 
+               </div>
+               <div class="blog-details">
+                  <span>Last Updated : <span>Feb 23, 2023</span></span>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="message-page">
+               <div class="auth-social-follow">
+                  <p class="fs-20 mb-1">Follow Me:</p>
+                  <ul>
+                     <li>
+                        <a href="https://twitter.com/Manpreetkaur321" target="_blank" rel="noreferrer noopener">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+                              <circle cx="21" cy="21" r="20" fill="black"></circle>
+                              <path
+                                 d="M27.0049 13.4688H29.9006L23.576 20.6957L31.0163 30.5312H25.192L20.627 24.5676L15.4098 30.5312H12.51L19.2735 22.7998L12.1409 13.4688H18.1127L22.2348 18.9197L27.0049 13.4688ZM25.9877 28.8004H27.5915L17.2391 15.1094H15.5165L25.9877 28.8004Z"
+                                 fill="white"></path>
+                           </svg>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="https://www.linkedin.com/in/manpreet-kaur-sandhu-73b660212/" target="_blank"
+                           rel="noreferrer noopener">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+                              <circle cx="21" cy="21" r="20" fill="#2768B2"></circle>
+                              <path
+                                 d="M16.1672 28.5001H12.5391V16.8165H16.1672V28.5001ZM14.3512 15.2228C13.191 15.2228 12.25 14.2618 12.25 13.1017C12.25 12.5444 12.4714 12.01 12.8654 11.6159C13.2595 11.2219 13.7939 11.0005 14.3512 11.0005C14.9084 11.0005 15.4429 11.2219 15.8369 11.6159C16.231 12.01 16.4523 12.5444 16.4523 13.1017C16.4523 14.2618 15.5109 15.2228 14.3512 15.2228ZM29.7461 28.5001H26.1258V22.8126C26.1258 21.4571 26.0984 19.7188 24.2395 19.7188C22.3531 19.7188 22.0641 21.1915 22.0641 22.7149V28.5001H18.4398V16.8165H21.9195V18.4103H21.9703C22.4547 17.4923 23.6379 16.5235 25.4031 16.5235C29.075 16.5235 29.75 18.9415 29.75 22.0821V28.5001H29.7461Z"
+                                 fill="white"></path>
+                           </svg>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <p class="fs-20">Editor and Copyreader</p>
+               <p>
+                  Manpreet, an ardent follower of Neil Patel, Rand Fishkin, and Jay Baer, is working as an Editor, and
+                  Copyreader, with a total of 7 years of experience in multiple niches. She reviews and evaluates
+                  submissions from writers prior to
+                  publishing and makes the write-up reader-friendly.
+               </p>
+               <p>
+                  Also, she confirms the credibility of research and sources such as links, stats, facts, and images to
+                  develop a high-quality after-product.
+               </p>
+               <p>
+                  Her articles are <a href="https://www.wikihow.com/See-Who-Views-Your-Facebook-Profile" target="_blank"
+                     rel="noreferrer noopener nofollow">referenced </a>in giants like
+                  <a href="https://www.wikihow.com/Main-Page" target="_blank"
+                     rel="noreferrer noopener nofollow">Wikihow</a>, <a href="https://www.wikipedia.org/" target="_blank"
+                     rel="noreferrer noopener nofollow">Wikipedia</a>, and many leading
+                  websites.
+               </p>
+               <p class="fs-20">Education:</p>
+               <ul>
+                  <li>Pursuing a Ph.D. in English Literature</li>
+                  <li>Diploma in Creative Writing from York University, Ca</li>
+                  <li>Internship in web-writing and news creation</li>
+                  <li>Master in English from Delhi University</li>
+                  <li>Bachelors in English from Delhi University</li>
+               </ul>
+               <p class="fs-20">Expertise:</p>
+               <ul>
+                  <li>Webmail</li>
+                  <li>Internet</li>
+                  <li>Social Media</li>
+                  <li>Windows, Linux, iOS</li>
+                  <li>Troubleshooting</li>
+                  <li>Product Reviews</li>
+               </ul>
+               <p class="fs-20">Favorite Tools</p>
+               <ul>
+                  <li><a href="https://ahrefs.com/" target="_blank" rel="noreferrer noopener nofollow">Ahrefs</a></li>
+                  <li><a href="https://www.brightlocal.com/" target="_blank"
+                     rel="noreferrer noopener nofollow">BrightLocal</a></li>
+                  <li><a href="https://www.lumar.io/" target="_blank" rel="noreferrer noopener nofollow">Lumar</a></li>
+                  <li>
+                     <a href="https://www.semrush.com/lp/sem-aeoy/en/?kw=semrush&amp;cmp=IN_SRCH_Brand_Semrush_EN&amp;label=brand_semrush&amp;Network=g&amp;Device=c&amp;utm_content=530419694767&amp;kwid=kwd-12220602509&amp;cmpid=13694421969&amp;agpid=119351852770&amp;BU=Brand_Semrush&amp;extid=&amp;adpos=&amp;gclid=Cj0KCQjw8e-gBhD0ARIsAJiDsaXXvz09S1uQtxMgcS4ZciLW3Jc3gCa1QHb07E3Yf7HqPY2lGJkyEioaAuqZEALw_wcB"
+                        target="_blank" rel="noreferrer noopener nofollow">
+                     Semrush
+                     </a>
+                  </li>
+                  <li><a href="https://keywordtool.io/" target="_blank" rel="noreferrer noopener nofollow">Keyword.oi</a>
+                  </li>
+                  <li><a href="https://analytics.google.com/analytics/web/" target="_blank"
+                     rel="noreferrer noopener nofollow">Google analytics</a></li>
+                  <li><a href="https://buzzsumo.com/" target="_blank" rel="noreferrer noopener nofollow">BuzzSumo</a></li>
+                  <li><a href="https://mailchimp.com/" target="_blank" rel="noreferrer noopener nofollow">Mailchimp</a>
+                  </li>
+                  <li><a href="https://moz.com/" target="_blank" rel="noreferrer noopener nofollow">Moz</a></li>
+                  <li><a href="https://www.contentkingapp.com/" target="_blank" rel="noreferrer noopener nofollow">Content
+                     King</a>
+                  </li>
+               </ul>
+               <p class="fs-20">Personal Interests:</p>
+               <ul>
+                  <li>Experimenting with different writing styles.</li>
+                  <li>Exploring a new marketing tool everyday.</li>
+                  <li>Learning ins and outs of Digital Marketing.</li>
+                  <li>Helping others to grasp the essence of writing.</li>
+                  <li>Volunteering in international campaigns that promote mental health.</li>
+                  <li>Beauty blogging, and making video tutorials.</li>
+                  <li>Learning new languages.</li>
+               </ul>
+               <p class="fs-20">Experience:</p>
+               <ul>
+                  <li>She has worked as a writer for nearly 8 years and has given her contribution to numerous renowned
+                     sites, later paving her way into editing and proofreading.
+                  </li>
+                  <li>Worked for a year with a famous tech blogger and acquired a complete understanding of SEO elements,
+                     digital promotions, content marketing, and social media optimization.
+                  </li>
+                  <li>Worked in the content creation teams of various government and non-government organizations.</li>
+                  <li>She has curated web guides for emails, social media, and other tech products and services.</li>
+                  <li>
+                     Worked in collaboration with the software development team of various renowned marketing and data
+                     recovery tools like <a href="https://www.stellarinfo.com/" target="_blank"
+                        rel="noreferrer noopener nofollow">Stellarinfo.com</a>,
+                     and procured excellence in copywriting.
+                  </li>
+                  <li>Served as quality moderator to the world’s largest-selling app OLX, and worked in various locations.
+                  </li>
+                  <li>Currently working as a Editor, copyreader, and content marketer for Battersea Web Experts and
+                     training a batch of 25 uprising writers.
+                  </li>
+               </ul>
+               <p class="fs-20">Words from Manpreet</p>
+               <p>
+                  In this competitive web world where everyone is performing gimmicks to attract viewers, I prefer being
+                  real and helping users to unveil the facts and stories kept away from their eyes. Calling me a
+                  tech-enthusiast would be the best
+                  term to define my personality. I believe in dedicating all my time to my readers and viewers and
+                  communicating through my team’s writing. Therefore, I try to generate content that is simple yet
+                  resourceful so that even a layman can
+                  benefit from them.
+               </p>
+               <p>
+                  I have given many years of my life to understanding the true essence of this technical realm and came to
+                  the conclusion that only writers with the intention of helping others can make a difference. In addition,
+                  I love reading and
+                  writing beauty blogs, but that’s my personal interest and I prefer doing it in my leisure time. Moreover,
+                  editing and proofreading have always been my core competencies and I have hardly left anything untouched
+                  regarding content
+                  curation.
+               </p>
+               <p>
+                  From the beginning of my career, I have been multitasking and this helped me to ace different
+                  professional arenas. Now I can not only write about any given topic but can make others write an error
+                  piece of content too. I ensure that
+                  whenever the content is published on a site it makes readers valued and satisfied. Nothing can end my
+                  zeal to find more, write more, research and review more; In the and help more, hence, my blogs and
+                  articles that are written under
+                  my supervision are enriched with all the elements that readers desire. I believe this world can be a
+                  better place with more readers and even more writers.
+               </p>
+            </div>
+            <div class="sep">
+               <div>
+                  <span>Manpreet Kaur Post's</span>
+               </div>
+            </div>
+            <div class="row align-items-center related-post container-space">
+               <div class="col-lg-6 col-md-6">
+                  <div class="hp-card d-grid">
+                     <div class="img-placeholder img-hover">
+                        <a href="#">
+                        <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt="" class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="card-content">
+                        <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Ex, velit.</a>
+                        <div class="health-cd-detls">
+                           <span>
+                           May 20, 2023
+                           </span>
+                           <a href="#">View Details</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="hp-card d-grid">
+                     <div class="img-placeholder img-hover">
+                        <a href="#">
+                        <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt="" class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="card-content">
+                        <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Ex, velit.</a>
+                        <div class="health-cd-detls">
+                           <span>
+                           May 20, 2023
+                           </span>
+                           <a href="#">View Details</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="hp-card d-grid">
+                     <div class="img-placeholder img-hover">
+                        <a href="#">
+                        <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt="" class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="card-content">
+                        <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Ex, velit.</a>
+                        <div class="health-cd-detls">
+                           <span>
+                           May 20, 2023
+                           </span>
+                           <a href="#">View Details</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6">
+                  <div class="hp-card d-grid">
+                     <div class="img-placeholder img-hover">
+                        <a href="#">
+                        <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt="" class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="card-content">
+                        <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Ex, velit.</a>
+                        <div class="health-cd-detls">
+                           <span>
+                           May 20, 2023
+                           </span>
+                           <a href="#">View Details</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <!-- footer start -->
+       <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4">
+                  <div class="footer-bg">
+                     <div class="footer-title h5  mb-0">Subscribe To Healthpract</div>
+                     <p>It is a long by the established fact that a reader will be distracted by the distracted by the
+                        readable page.
+                     </p>
+                     <form>
+                        <input type="text" name="name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        <button type="submit" class="form-btn">Subscribe</button>
+                     </form>
+                  </div>
+               </div>
+               <div class="col-lg-8">
+                  <div class="d-flex justify-content-between">
+                     <div class="row">
+                        <div class="col-md-8">
+                           <div class="footer-list category-box">
+                              <div class="footer-title h6">Trending Topics</div>
+                              <ul>
+                                 <li><a href="single.html">Single page</a></li>
+                                 <li><a href="contact-us.html">Contact us</a></li>
+                                 <li><a href="category.html">Category page</a></li>
+                                 <li><a href="search-pg.html">Search page</a></li>
+                                 <li><a href="thank-you.html">Thankyou page</a></li>
+                                 <li><a href="author.html">Authors page</a></li>
+                                 <li><a href="404.html">404 page</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="footer-list">
+                              <div class="footer-title h6">Important Links</div>
+                              <ul>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer-bg">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="footer-title">Follow us on Social Media</div>
+                              <div class="social-media">
+                                 <ul>
+                                    <li>
+                                       <a href="#">
+                                          <svg viewBox="0 0 320 512" height="16" width="10">
+                                             <path
+                                                d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4v42.1H14v97.8h66z" />
+                                          </svg>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="#">
+                                          <svg viewBox="0 0 512 512" height="16" width="16">
+                                             <path
+                                                d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                                          </svg>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="#">
+                                          <svg viewBox="0 0 448 512" height="16" width="14">
+                                             <path
+                                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                          </svg>
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a href="#">
+                                          <svg viewBox="0 0 448 512" height="16" width="14">
+                                             <path
+                                                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                                          </svg>
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="footer-title">Email at</div>
+                              <a href="mailto:infohealthpract@gmail.com">
+                                 <svg viewBox="0 0 640 512" height="16" width="20">
+                                    <path
+                                       d="M128 0c-17.7 0-32 14.3-32 32v192h96v-32c0-35.3 28.7-64 64-64h224V32c0-17.7-14.3-32-32-32H128zm128 160c-17.7 0-32 14.3-32 32v32h96c35.3 0 64 28.7 64 64v128h192c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32H256zm240 64h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-32c-8.8 0-16-7.2-16-16v-32c0-8.8 7.2-16 16-16zM64 256c-17.7 0-32 14.3-32 32v13l155.1 114.9c1.4 1 3.1 1.6 4.9 1.6s3.5-.6 4.9-1.6L352 301v-13c0-17.7-14.3-32-32-32H64zm288 84.8L216 441.6c-6.9 5.1-15.3 7.9-24 7.9s-17-2.8-24-7.9L32 340.8V480c0 17.7 14.3 32 32 32h256c17.7 0 32-14.3 32-32V340.8z" />
+                                 </svg>
+                                 infohealthpract@gmail.com
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <p><strong>Disclaimer: </strong>The download links on this website are provided for informational purposes only. While we strive to provide you with safe and reliable downloads but some of these files may contain viruses, malware, or other harmful software that can damage your device. By downloading these files, you do so at your own risk and responsibility. We are not responsible for any damage or loss caused by the use of these files. It is important to use caution and always take necessary precautions, such as using antivirus software, to ensure the safety of your device.</p>
+            <p class="copyright text-center">© 2023 Healthpract All Rights Reserved.</p>
+         </div>
+      </footer>
+      <button id="myBtn" title="Back to top">
+         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="#fff">
+            <path
+               d="M2.721 10.816 1.905 10a.879.879 0 0 1 0-1.247l7.144-7.146a.879.879 0 0 1 1.247 0l7.142 7.142a.879.879 0 0 1 0 1.247l-.816.816a.882.882 0 0 1-1.261-.015l-4.216-4.425v10.565a.88.88 0 0 1-.882.882H9.087a.88.88 0 0 1-.882-.882V6.372L3.982 10.8a.876.876 0 0 1-1.261.015Z" />
+         </svg>
+      </button>
+      <!-- footer end -->
+      <script defer src="assets/js/main.js"></script>
+   </body>
+</html>
